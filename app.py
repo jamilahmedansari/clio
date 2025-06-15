@@ -5,7 +5,7 @@ from src.models import db
 
 # Initialize Flask app
 app = Flask(__name__)
-CORS(app, origins="*")
+CORS(app, origins="https://friendly-monstera-afca26.netlify.app/")
 
 # Supabase PostgreSQL configuration
 app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://postgres:jbgbaCDhGfw52GNT@db.kdczlvudghomhjwzeuwe.supabase.co:5432/postgres"
